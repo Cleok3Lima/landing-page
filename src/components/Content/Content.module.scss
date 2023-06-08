@@ -1,0 +1,307 @@
+@import '@/styles/colors';
+
+.contentContainer {
+  text-align: -webkit-center;
+  padding-bottom: 60px;
+}
+
+// HEADER
+.header {
+  padding: 30px 0;
+  background-color: $blue-700;
+}
+
+.headerImg {
+  width: 60%;
+  height: 50vh;
+  background-color: $blue-400;
+  border-radius: 25px;
+  text-align: center;
+}
+
+.headerTitle {
+  text-align: right;
+  padding: 30px 16vw 15px 16vw;
+  div {
+    height: 20px;
+    background-color: $blue-400;
+    border-radius: 31px;
+    margin-bottom: 15px;
+
+    &:first-child {
+      width: 100%;
+    }
+
+    &:nth-child(2) {
+      width: 75%;
+    }
+
+    &:nth-child(3) {
+      width: 62%;
+    }
+  }
+}
+
+.headerParagraph {
+  text-align: right;
+  padding: 0 16vw;
+  div {
+    height: 10px;
+    background-color: $white;
+    border-radius: 31px;
+    margin-bottom: 15px;
+
+    &:first-child {
+      width: 92%;
+    }
+
+    &:nth-child(2) {
+      width: 82%;
+    }
+
+    &:nth-child(3) {
+      width: 72%;
+    }
+  }
+}
+
+.headerButton {
+  font-weight: 400;
+  font-size: 18px;
+  background-color: $pink-400;
+  color: rgb(27, 27, 27);
+  border-radius: 14px;
+  border: none;
+  height: 52px;
+  width: 144px;
+  margin-top: 15px;
+}
+
+// SECTION ONE
+// ~part one
+.sectionOneContainer {
+  padding: 30px 0;
+}
+
+.sectionOneImg {
+  width: 78%;
+  height: 24vh;
+  background-color: $blue-400;
+  border-radius: 25px;
+  text-align: center;
+}
+
+.sectionOneTitle {
+  text-align: right;
+  padding: 30px 16vw 15px 16vw;
+  div {
+    height: 20px;
+    background-color: $blue-700;
+    border-radius: 31px;
+    margin-bottom: 15px;
+
+    &:first-child {
+      width: 100%;
+    }
+
+    &:nth-child(2) {
+      width: 75%;
+    }
+
+    &:nth-child(3) {
+      width: 62%;
+    }
+  }
+}
+
+.sectionOneParagraph {
+  text-align: right;
+  padding: 0 16vw;
+  div {
+    height: 10px;
+    background-color: $blue-400;
+    border-radius: 31px;
+    margin-bottom: 15px;
+
+    &:first-child {
+      width: 92%;
+    }
+
+    &:nth-child(2) {
+      width: 82%;
+    }
+
+    &:nth-child(3) {
+      width: 72%;
+    }
+  }
+}
+
+// ~part two
+.sectionOnePartTwo {
+  margin-top: 64px;
+}
+
+.sectionOnePartTwoImgPartOne {
+  display: flex;
+  justify-content: space-evenly;
+  .sectionOnePartTwoImgOne {
+    width: 30%;
+    height: 14vh;
+    background-color: $blue-400;
+    border-radius: 25px;
+    text-align: center;
+  }
+}
+
+.sectionOnePartTwoImgTwo {
+  margin-top: 15px;
+  width: 73%;
+  height: 14vh;
+  background-color: $blue-400;
+  border-radius: 25px;
+  text-align: center;
+}
+
+// ~part three
+
+.sectionOnePartThree {
+  margin-top: 94px;
+}
+
+.sectionOnePartThreeImg {
+  margin-top: 15px;
+  width: 73%;
+  height: 8.5vh;
+  background-color: $blue-400;
+  border-radius: 25px;
+  text-align: center;
+}
+
+.sectionOnePartThreeCircles {
+  text-align: right;
+  padding: 0 16vw;
+  display: flex;
+  div {
+    width: 30px;
+    height: 30px;
+    background-color: $blue-400;
+    border-radius: 31px;
+    margin-bottom: 15px;
+    margin-right: 10px;
+  }
+}
+
+// SECTION TWO
+.sectionTwoContainer {
+  margin-top: 140px;
+}
+
+.sectionTwoTitleContainer {
+  margin-bottom: 60px;
+}
+
+.sectionTwoTitle {
+  width: 78%;
+  height: 20px;
+  background-color: $blue-700;
+  border-radius: 31px;
+  margin-bottom: 15px;
+}
+
+.sectionTwoSubtitle {
+  width: 53%;
+  height: 10px;
+  background-color: $blue-400;
+  border-radius: 31px;
+}
+
+.sectionTwoBox {
+  width: 70%;
+  height: 80vh;
+  background-color: $blue-400;
+  border-radius: 31px;
+  padding: 36px;
+  margin: 0 auto;
+
+  .boxTitle {
+    width: 85%;
+    height: 20px;
+    background-color: $blue-700;
+    border-radius: 31px;
+    margin: 0 auto;
+  }
+
+  .boxSubtitle {
+    width: 59%;
+    height: 40px;
+    background-color: $blue-700;
+    border-radius: 31px;
+    margin: 26px auto;
+  }
+
+  .boxImg {
+    height: 102px;
+    background-color: $blue-700;
+    border-radius: 10px;
+    margin: 40px 0 15px 0;
+  }
+
+  .boxText {
+    height: 10px;
+    background-color: $white;
+    border-radius: 31px;
+    margin-bottom: 15px;
+  }
+}
+
+// SECTIO THREE
+
+.sectionThreeContainer {
+  margin-top: 140px;
+}
+
+.sectionThreeTitleContainer {
+  margin-bottom: 60px;
+}
+
+.sectionThreeTitle {
+  width: 78%;
+  height: 20px;
+  background-color: $blue-700;
+  border-radius: 31px;
+  margin-bottom: 15px;
+}
+
+.sectionThreeSubtitle {
+  width: 53%;
+  height: 10px;
+  background-color: $blue-400;
+  border-radius: 31px;
+}
+
+.sectionThreeListItem {
+  height: 35px;
+  width: 80%;
+  background-color: $blue-400;
+  border-radius: 12px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 30px;
+}
+
+.sectionThreeListItemTitle {
+  width: 50%;
+  height: 10px;
+  background-color: $blue-700;
+  border-radius: 31px;
+}
+
+.sectionThreeListItemImg {
+  width: 20px;
+  height: 20px;
+  background-color: $white;
+  border-radius: 50%;
+}

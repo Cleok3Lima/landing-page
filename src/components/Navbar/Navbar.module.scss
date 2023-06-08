@@ -1,0 +1,95 @@
+@import '@/styles/colors';
+
+.navbarContainer {
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  height: 60px;
+  align-items: center;
+  padding: 0 10px;
+  width: 100%;
+  max-width: 100vw;
+  z-index: 999;
+
+  &__dark {
+    background-color: $blue-700;
+  }
+  &__light {
+    background-color: $white;
+  }
+}
+
+.closeButton {
+  vertical-align: -webkit-baseline-middle;
+  padding: 5px;
+  &__dark {
+    fill: $white;
+  }
+  &__light {
+    fill: $blue-400;
+  }
+}
+
+.menuIcon {
+  &__dark {
+    fill: $white;
+  }
+  &__light {
+    fill: $blue-400;
+  }
+}
+
+.logo {
+  width: 128px;
+  height: 34px;
+  background-color: white;
+  border-radius: 12px;
+  text-align: center;
+
+  span {
+    vertical-align: -webkit-baseline-middle;
+    font-weight: 900;
+    color: $blue-400;
+  }
+}
+
+.menuList {
+  padding: 1rem 2rem;
+  height: 100vh;
+  position: fixed;
+  max-width: 100vw;
+  width: 100%;
+  overscroll-behavior: contain;
+  list-style: none;
+
+  li {
+    margin: 24px 0;
+    width: 60%;
+    height: 18px;
+    background-color: white;
+    border-radius: 12px;
+  }
+
+  li:nth-child(odd) {
+    width: 50%;
+  }
+
+  &__dark {
+    background-color: $blue-500;
+  }
+
+  &__light {
+    background-color: $blue-400;
+  }
+
+  &__open {
+    transition: left 0.3s ease 0s;
+    top: 60px;
+    left: 0px;
+  }
+
+  &__closed {
+    transition: left 0.3s ease 0s;
+    display: none;
+  }
+}

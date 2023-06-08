@@ -1,0 +1,53 @@
+@import '@/styles/colors';
+
+.footerContainer {
+  background-color: $blue-700;
+  height: 235px;
+  // display: grid;
+  // grid-template-columns: 1fr 1fr;
+  padding: 30px 65px;
+}
+
+.footerPartOneContainer {
+  // align-self: center;
+  padding: 0 65px;
+}
+
+.footerPartOneImg {
+  height: 60px;
+  width: 60px;
+  background-color: $blue-400;
+  border-radius: 9px;
+}
+
+.footerPartOneTextOne {
+  height: 5px;
+  width: 100%;
+  background-color: $blue-400;
+  border-radius: 9px;
+  margin-top: 18px;
+  margin-bottom: 5px;
+}
+
+.footerPartOneTextTwo {
+  height: 5px;
+  width: 60%;
+  background-color: $blue-400;
+  border-radius: 9px;
+}
+
+.footerPartTwoContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 25px 0;
+  gap: 25px;
+  place-content: center;
+  padding: 0 35px;
+}
+
+.footerPartTwoGrid {
+  height: 5px;
+  width: 100%;
+  background-color: $blue-600;
+  border-radius: 9px;
+}

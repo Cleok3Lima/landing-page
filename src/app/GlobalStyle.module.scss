@@ -1,0 +1,15 @@
+@import '@/styles/colors';
+
+.main {
+  min-height: 100vh;
+}
+
+.themeDark {
+  color: $white;
+  background-color: $dark-theme-background;
+}
+
+.themeLight {
+  color: $blue-400;
+  background-color: $light-theme-background;
+}
